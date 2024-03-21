@@ -62,7 +62,7 @@ This module is made for use with the following methods of the [ML model service 
 - [`Metadata()`](https://docs.viam.com/ml/deploy/#metadata)
 - [`Infer()`](https://docs.viam.com/ml/deploy/#infer)
 
-A call to `Metadata()` will return relevant information about the shape, type, and size of the input and output tensors.  For the `Infer()` method, the module will accept a struct of numpy arrays representing input tensors. The number and dimensionality of the input tensors depends on the included Tensorflow model. It will return a struct of numpy arrays representing output tensors.
+A call to `Metadata()` will return relevant information about the shape, type, and size of the input and output tensors.  For the `Infer()` method, the module will accept a struct input tensors. The number and dimensionality of the input tensors depends on the included Tensorflow model. It will return a struct of output tensors.
 
 
 
